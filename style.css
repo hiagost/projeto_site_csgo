@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans:wght@400;700&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #2b134bea;
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-family: 'Bungee', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #ecf0f1;
+}
+
+.par {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 17px;
+}
+
+header nav li a {
+    color: #ffffff60;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container > img {
+    height: 80%;
+    width: 80%;
+    display: flex;
+
+}
+
+.ulmud {
+    margin-top: 15px;
+}
+
+.img-cs {
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+
+.left {
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-links {
+    padding-top: 10px;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.social-links .youtube {
+    width: 45px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.cadh2{
+    margin-bottom: 30px;
+    font-size: bold;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: rgb(219, 219, 219);
+    font-size: 12pt;
+    box-shadow: 0ox 10ox 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #000000de;
+    margin-bottom: 8px;
+    font-size: bolder;
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px auto ;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+footer {
+    background-color: #2b134bea;
+    color: #fff;
+    padding: 16px 0;
+    text-align: right;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-login {
+        flex-direction: column;
+    }
+    .left-login > h1 {
+        display: none;
+    }
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+    .left-login-img {
+        width: 50vw;
+    }
+    .card-login {
+        width: 90%;
+    }
+    footer {
+        font-size: 8px;
+    }
+}
